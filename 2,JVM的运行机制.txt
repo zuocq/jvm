@@ -1,0 +1,12 @@
+JVM启动流程
+	Java XXX（Java命令）---->装载配置（根据当前路径和系统版本寻找jvm.cfg）---->根据配置寻找JVM.dll(JVM.dll为JVM主要实现)
+		----> 初始化JVM获得JNIEnv接口（JNIEnv为JVM接口，findClass等操作通过它实现）----> 找到main方法并运行
+
+JVM基本结构
+	Class文件---->类加载子系统<------->内存空间
+	
+
+内存模型
+
+
+编译和解释运行的概念
